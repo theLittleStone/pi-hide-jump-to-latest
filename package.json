@@ -1,0 +1,41 @@
+{
+  "name": "pi-hide-jump-to-latest",
+  "version": "0.1.0",
+  "description": "Hide Pi's fullscreen “Jump to latest message” overlay",
+  "type": "module",
+  "license": "MIT",
+  "author": "theLittleStone",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OldSuns/pi-hide-jump-to-latest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OldSuns/pi-hide-jump-to-latest/issues"
+  },
+  "homepage": "https://github.com/OldSuns/pi-hide-jump-to-latest#readme",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "pi-coding-agent",
+    "tui",
+    "fullscreen"
+  ],
+  "files": [
+    "extensions",
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/hide-jump-to-latest.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": ">=0.85.0"
+  }
+}
