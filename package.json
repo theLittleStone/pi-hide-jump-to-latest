@@ -25,7 +25,8 @@
     "extensions",
     "index.ts",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "pic.jpg"
   ],
   "publishConfig": {
     "access": "public"
@@ -33,7 +34,8 @@
   "pi": {
     "extensions": [
       "./extensions/hide-jump-to-latest.ts"
-    ]
+    ],
+    "image": "./pic.jpg"
   },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": ">=0.85.0"
