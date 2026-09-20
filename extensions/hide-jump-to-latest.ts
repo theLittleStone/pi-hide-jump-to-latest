@@ -11,9 +11,9 @@ type TuiLike = {
 };
 
 /**
- * Pi 全屏 TUI 没有关闭 “Jump to latest message” 的公开 API。
- * 通过 0 行 widget 拿到 live TUI（Proxy），清掉内部 indicator，
- * 并补丁原型，避免切 TUI 模式后重建实例又把横幅加回来。
+ * Pi fullscreen TUI has no public switch for the Jump to latest message overlay.
+ * A zero-height widget captures the live TUI proxy, clears the indicator field,
+ * and patches the prototype so TUI mode switches do not restore the banner.
  */
 function hideJumpToLatest(tui: unknown): void {
 	if (!tui || typeof tui !== "object") return;
@@ -63,7 +63,7 @@ export default function hideJumpToLatestExtension(pi: ExtensionAPI): void {
 				};
 			});
 		} catch {
-			// setWidget 不存在或 TUI 形状变了时静默跳过，避免拖垮会话
+			// Skip if setWidget is missing or the TUI shape changed.
 		}
 	});
 }

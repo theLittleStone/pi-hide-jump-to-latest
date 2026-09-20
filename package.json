@@ -1,18 +1,18 @@
 {
   "name": "pi-hide-jump-to-latest",
   "version": "0.1.0",
-  "description": "Hide Pi's fullscreen “Jump to latest message” overlay",
+  "description": "Hide Pi fullscreen Jump to latest message overlay",
   "type": "module",
   "license": "MIT",
   "author": "theLittleStone",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OldSuns/pi-hide-jump-to-latest.git"
+    "url": "git+https://github.com/theLittleStone/pi-hide-jump-to-latest.git"
   },
   "bugs": {
-    "url": "https://github.com/OldSuns/pi-hide-jump-to-latest/issues"
+    "url": "https://github.com/theLittleStone/pi-hide-jump-to-latest/issues"
   },
-  "homepage": "https://github.com/OldSuns/pi-hide-jump-to-latest#readme",
+  "homepage": "https://github.com/theLittleStone/pi-hide-jump-to-latest#readme",
   "keywords": [
     "pi-package",
     "pi",
