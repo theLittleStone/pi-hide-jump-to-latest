@@ -14,18 +14,24 @@ Requires Pi 0.85.0 or later. This is unofficial: it patches private TUI internal
 pi install npm:pi-hide-jump-to-latest
 ```
 
-Or:
+Restart Pi after installing.
+
+From git:
 
 ```bash
 pi install git:github.com/theLittleStone/pi-hide-jump-to-latest
 ```
 
-Then `/reload` or restart Pi.
-
 ## Uninstall
 
 ```bash
 pi remove npm:pi-hide-jump-to-latest
+```
+
+If you installed from git:
+
+```bash
+pi remove git:github.com/theLittleStone/pi-hide-jump-to-latest
 ```
 
 Restart Pi after uninstall. `/reload` does not undo the patch.

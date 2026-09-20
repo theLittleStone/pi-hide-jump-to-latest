@@ -1,6 +1,6 @@
 {
   "name": "pi-hide-jump-to-latest",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hide Pi fullscreen Jump to latest message overlay",
   "type": "module",
   "license": "MIT",
